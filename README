@@ -14,14 +14,20 @@ Home page will display all tasks. The user should be able to view tasks by categ
 -----------------------------------------
 unzip "todolist.zip"
 
-composer install
+opem terminal on yor project folder
 
-npm install
+enter "composer install" into your terminal
 
-npm run dev
+enter "npm install" into your terminal
 
-.env configuration
+enter "npm run dev" into your terminal
 
-php artisan migrate –seed (important)
+edit ".env" for your specific local database
 
-php artisan serve
+create the database in mysql
+
+run "php artisan migrate –seed" (important)
+
+run "php artisan serve"
+
+Enjoy!
