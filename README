@@ -1,0 +1,27 @@
+-----------------------------------------
+  Todo List
+-----------------------------------------
+
+Create a personal todo list.
+
+The user should be able to add tasks (title, short description). Each task will belong to a project and may have a date to be done and  a degree of difficulty (easy, normal, hard).
+
+User may delete a task or define a task as done. Done tasks will not be deleted and will be displayed in respective pages.
+
+Home page will display all tasks. The user should be able to view tasks by category, completion data, or degree of difficulty.
+-----------------------------------------
+  How to get it running
+-----------------------------------------
+unzip "sara_blog.zip"
+
+composer install
+
+npm install
+
+npm run dev
+
+.env configuration
+
+php artisan migrate –seed (important)
+
+php artisan serve
