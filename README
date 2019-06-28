@@ -12,7 +12,7 @@ Home page will display all tasks. The user should be able to view tasks by categ
 -----------------------------------------
   How to get it running
 -----------------------------------------
-unzip "sara_blog.zip"
+unzip "todolist.zip"
 
 composer install
 
